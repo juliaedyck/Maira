@@ -1,0 +1,17 @@
+Title: dj-set-new
+
+----
+
+Category: dj-sets
+
+----
+
+Text: this is a dj set
+
+----
+
+Embed: 
+
+----
+
+Uuid: ea16hffq9yibjoth

@@ -1,0 +1,10 @@
+title: Work
+
+sections:
+  projects:
+    type: pages
+    label: Projects
+    layout: cards
+    template: work-project
+    image:
+      query: page.image

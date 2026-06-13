@@ -1,0 +1,42 @@
+title: Bio
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          text:
+            type: textarea
+            label: Bio Text
+            size: huge
+            buttons:
+              - bold
+              - italic
+              - link
+          instagram:
+            type: url
+            label: Instagram
+            width: 1/2
+          website:
+            type: url
+            label: Website
+            width: 1/2
+          facebook:
+            type: url
+            label: Facebook
+            width: 1/2
+          vimeo:
+            type: url
+            label: Vimeo
+            width: 1/2
+
+  sidebar:
+    width: 1/3
+    sections:
+      photo:
+        type: files
+        label: Photo
+        max: 1
+        template: image

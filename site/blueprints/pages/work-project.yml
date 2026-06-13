@@ -1,0 +1,48 @@
+title: Work Project
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          title:
+            type: text
+            label: Title
+          category:
+            type: select
+            label: Category
+            options:
+              music-performance: Music / Performance
+              dj-sets: DJ Sets
+              sound-baths: Sound Baths
+          text:
+            type: textarea
+            label: Description
+            size: huge
+            buttons:
+              - bold
+              - italic
+              - link
+          mediaheadline:
+            type: headline
+            label: Audio / Video
+          embed:
+            type: url
+            label: Embed URL
+            help: Paste a YouTube, Vimeo, or SoundCloud link
+      gallery:
+        type: files
+        label: Image Gallery
+        template: image
+        layout: cards
+
+  sidebar:
+    width: 1/3
+    sections:
+      cover:
+        type: files
+        label: Cover Photo
+        max: 1
+        template: image

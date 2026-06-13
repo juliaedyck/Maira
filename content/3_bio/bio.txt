@@ -1,0 +1,25 @@
+Title: Bio
+
+----
+
+Text: this is my bio
+
+----
+
+Instagram: 
+
+----
+
+Website: 
+
+----
+
+Facebook: 
+
+----
+
+Vimeo: 
+
+----
+
+Uuid: a95zqslp6oij3rsa

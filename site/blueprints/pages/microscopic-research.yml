@@ -1,0 +1,10 @@
+title: Microscopic Research
+
+sections:
+  projects:
+    type: pages
+    label: Projects
+    layout: cards
+    template: microscopic-research-project
+    image:
+      query: page.image

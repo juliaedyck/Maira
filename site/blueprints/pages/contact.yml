@@ -1,0 +1,30 @@
+title: Contact
+
+sections:
+  content:
+    type: fields
+    fields:
+      intro:
+        type: textarea
+        label: Contact Page Text
+        size: medium
+      email:
+        type: email
+        label: Email Address
+        width: 1/2
+      phone:
+        type: tel
+        label: Phone
+        width: 1/2
+      address:
+        type: textarea
+        label: Address
+        size: small
+      instagram:
+        type: url
+        label: Instagram
+        width: 1/2
+      website:
+        type: url
+        label: Website
+        width: 1/2

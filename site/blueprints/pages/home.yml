@@ -1,0 +1,29 @@
+title: Home
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          headline:
+            type: text
+            label: Headline
+          intro:
+            type: textarea
+            label: Introduction
+            size: medium
+            buttons:
+              - bold
+              - italic
+              - link
+
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        label: Hero Image
+        max: 1
+        template: image
