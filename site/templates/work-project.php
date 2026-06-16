@@ -15,7 +15,7 @@
     </div>
   <?php endif ?>
 
-  <?php $gallery = $page->files()->template('image'); ?>
+  <?php $gallery = page()->files()->not(page()->files()->template('cover')); ?>
   <?php if ($gallery->isNotEmpty()): ?>
     <div class="gallery">
       <?php foreach ($gallery as $image): ?>

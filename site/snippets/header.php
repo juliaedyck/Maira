@@ -15,4 +15,19 @@
 </head>
 <body>
 
-<?php snippet('nav') ?>
+  <?php $page = page('home')?>
+  <div class= "head">
+  <h1><?= $page->headline()?></h1>
+
+  <?php if ($page->intro()->isNotEmpty()): ?>
+    <div class="intro"><?= $page->intro() ?></div>
+    <?php endif ?>
+    </div>
+    
+    <?php snippet('nav') ?>
+
+<script>
+  document.querySelector('.head').addEventListener('click', function () {
+    document.querySelector('.nav').classList.toggle('nav--open');
+  });
+</script>

@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
 
 <main class="contact">
-  <h1><?= $site->title()->html() ?></h1>
 
   <div class="intro"><?= $page->intro()->kirbytext() ?></div>
 

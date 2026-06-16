@@ -16,7 +16,7 @@
 ?>
 
 <main class="work">
-  <h1><?= page()->title()->html() ?></h1>
+
 
   <nav class="filter">
     <a class="filter-btn<?= !$active ? ' is-active' : '' ?>" href="<?= page()->url() ?>">All</a>

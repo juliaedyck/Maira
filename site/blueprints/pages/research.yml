@@ -1,0 +1,10 @@
+title: Research
+
+sections:
+  content:
+    type: fields
+    fields:
+      intro:
+        type: textarea
+        label: Introduction
+        size: medium

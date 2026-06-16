@@ -45,4 +45,4 @@ columns:
         type: files
         label: Cover Photo
         max: 1
-        template: image
+        template: cover
