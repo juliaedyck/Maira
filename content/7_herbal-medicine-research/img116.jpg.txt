@@ -1,0 +1,9 @@
+Sort: 1
+
+----
+
+Uuid: y4a2h711f0ifg5ca
+
+----
+
+Template: image

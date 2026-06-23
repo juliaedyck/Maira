@@ -15,13 +15,21 @@ columns:
               - bold
               - italic
               - link
+          text2:
+            type: textarea
+            label: Upcoming dates
+            size: huge
+            buttons:
+              - bold
+              - italic
+              - link
           instagram:
             type: url
             label: Instagram
             width: 1/2
           website:
             type: url
-            label: Website
+            label: Soundcloud
             width: 1/2
           facebook:
             type: url

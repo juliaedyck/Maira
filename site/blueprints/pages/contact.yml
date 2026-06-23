@@ -28,3 +28,9 @@ sections:
         type: url
         label: Website
         width: 1/2
+
+      cover:
+        type: files
+        label: Cover Photo
+        max: 1
+        template: cover

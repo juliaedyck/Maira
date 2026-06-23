@@ -2,8 +2,8 @@ Sort: 1
 
 ----
 
-Uuid: g7ktdlqvukpvfdy1
+Uuid: 7tlky2voyizyzvhp
 
 ----
 
-Template: image
+Template: cover

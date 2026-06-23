@@ -18,6 +18,16 @@
     </div>
 
     <script>
+      if (window.innerWidth < 1024) {
+        document.addEventListener('click', function (e) {
+          var nav  = document.querySelector('.nav');
+          var head = document.querySelector('.head');
+          if (head.contains(e.target)) return;
+          if (e.target.closest('.nav-link')) return;
+          nav.classList.toggle('nav--open');
+        });
+      }
+
       const turbulence = document.getElementById('turbulence');
       const start = performance.now();
 

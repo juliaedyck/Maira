@@ -28,10 +28,14 @@ columns:
           mediaheadline:
             type: headline
             label: Audio / Video
-          embed:
+          video:
+            label: Video URL
             type: url
-            label: Embed URL
-            help: Paste a YouTube, Vimeo, or SoundCloud link
+            help: YouTube or Vimeo link
+          soundcloud:
+            label: SoundCloud URL
+            type: url
+            help: SoundCloud track or playlist link
       gallery:
         type: files
         label: Image Gallery

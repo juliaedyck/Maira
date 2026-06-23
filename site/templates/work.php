@@ -30,8 +30,10 @@
   <div class="project-grid">
     <?php foreach ($projects as $project): ?>
       <a class="project-card" href="<?= $project->url() ?>">
-        <?php if ($image = $project->image()): ?>
-          <img src="<?= $image->url() ?>" alt="<?= $image->alt()->html() ?>">
+        <?php if ($image = $project->files()->template('cover')->first()): ?>
+          <div class="project-card-image">
+            <img src="<?= $image->url() ?>" alt="<?= $image->alt()->html() ?>">
+          </div>
         <?php endif ?>
         <h2><?= $project->title()->html() ?></h2>
       </a>

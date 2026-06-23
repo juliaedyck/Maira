@@ -1,0 +1,6 @@
+title: Image
+
+fields:
+  title:
+    type: text
+    label: Title

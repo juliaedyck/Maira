@@ -2,11 +2,11 @@ Title: Contact
 
 ----
 
-Intro: heres how to contact me
+Intro: 
 
 ----
 
-Email: 
+Email: ma.muehombo@gmail.com
 
 ----
 
@@ -18,11 +18,15 @@ Address:
 
 ----
 
-Instagram: 
+Instagram: https://www.instagram.com/mimi____green/
 
 ----
 
 Website: 
+
+----
+
+Cover: - file://lgbaab6xojmkxupl
 
 ----
 

@@ -27,7 +27,11 @@
     <?php snippet('nav') ?>
 
 <script>
-  document.querySelector('.head').addEventListener('click', function () {
-    document.querySelector('.nav').classList.toggle('nav--open');
+  var nav  = document.querySelector('.nav');
+  var head = document.querySelector('.head');
+
+  head.addEventListener('click', function (e) {
+    e.stopPropagation();
+    nav.classList.toggle('nav--open');
   });
 </script>
